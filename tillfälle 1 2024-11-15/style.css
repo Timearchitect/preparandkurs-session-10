@@ -1,0 +1,19 @@
+h1 {
+   /* color:red;
+   */
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  background-color: cyan;
+  margin: 50px;  
+  padding: 20px;
+}
+
+p{
+    border-style: dotted;
+    border-color: green;
+    border-width: 6px;
+    padding: 10px;
+}
