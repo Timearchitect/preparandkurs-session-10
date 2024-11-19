@@ -59,7 +59,11 @@ x = null  // tomt   typeof funkar ej
 // && och/and   strikt
 // || eller / or   generös 
 
+let vip = true
 let age = 18
+
+
+
 
 if(  age >= 18 ){
     console.log("YES");
@@ -84,11 +88,25 @@ while ( 1 + 1 == 2 ){  / /true
 }
 
 
-    if (  ?  &&  ? ){
-        console.log( "yes");
-    }else {
-        console.log( "no");
-    }
-    
+if (  ?  &&  ? ){  // fler  conditions går att använda vid
+	console.log( "yes");
+}else {
+	console.log( "no");
+}
 
+//extra 
+
+switch(age) {
+    case 20:
+	console.log("systemet")
+    break;
+
+    case 18:
+	console.log("systemet")
+    break;
+
+default:
+	console.log("else...")
+
+}
 
